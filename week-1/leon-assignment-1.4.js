@@ -21,22 +21,22 @@ Run and test the program and make sure your output matches what I have
 When you are happy with the output stage, commit, and push your work to GitHub
 */
 
-//variable to hold my
+//variable to hold my name
 var firstName = "Wendy"
 
-//variable to hold my
+//variable to hold my last name
 var lastName = "Leon"
 
-//variable to hold my
+//variable to hold my age
 var age = "42";
 
-//variable to hold my
+//variable to hold random address
 var street = "Hampton Street";
 
-//variable to hold my
+//variable to hold random city
 var city = "St Petersburg";
 
-//variable to hold my
+//variable to hold random zip code
 var zipCode = "34114";
 
 
