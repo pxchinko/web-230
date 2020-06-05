@@ -2,9 +2,9 @@
 ============================================
 ; Title:  header.js
 ; Author: Professor Krasso
-; Date:   3 June 2020
+; Date:   4 June 2020
 ; Modified by: Wendy Leon
-; Description: Displays a formatted header
+; Description: Functions
 ;===========================================
 */
 
@@ -22,7 +22,7 @@ refer to page 178 for implementing fuction properties
 
 var header = require('../header.js');
 
-console.log(header.display("Wendy", "Leon", "Exercise 2.3 - Header"));
+console.log(header.display("Wendy", "Leon", "Exercise 2.3 - Functions"));
 
 console.log('\n');
 
