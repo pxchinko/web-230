@@ -24,17 +24,17 @@ console.log('\n');
 
 // Two errors below
 
-var fruits = [ 'Melon' , 'Cherry', 'Orange', 'Banana', 'Watermelon'] ;
+var fruits = [ 'Apple' , 'Orange', 'Banana', 'Watermelon', 'Orange', ] ;
 
 //Function and Iteration creation to display the fruit array
 
-function getFruit ( arrFruit ){
+function getFruit ( arr ){
 
 
 
-for ( var x = 0; x <  arrFruit.length; x ++)
+for ( var k = 0; k <  arr.length; k ++)
 
-console.log ( arrFruit [ x ]);
+console.log ( arr [ k ]);
 
 }
 
