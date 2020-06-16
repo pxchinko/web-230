@@ -3,7 +3,7 @@
 ; Title: Assignment 4.2
 ; Author: Professor Krasso
 ; Date: 16 June 2020
-; Modified By: Douglas Jenkins
+; Modified By: Wendy Leon
 ; Description: 2 errors in the array
 ;=========================================== */
 
