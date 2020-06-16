@@ -11,7 +11,7 @@
 
 // Two errors below
 
-var food = [ 'hot dog' , ' burger ', ' pizza ', ' tacos ', ' french fries '] ;
+var food = [ 'hot dog' , ' burger ', ' pizza ', ' tacos ', ' french fries '] ; // missing = sign
 
 //Function and Iteration creation to display the array
 
@@ -19,7 +19,7 @@ function getFood ( arrFood ){
 
 var y =  arrFood.length;
 
-for ( var x = 0; x <  y ; x ++)
+for ( var x = 0; x <  y ; x ++) // replaced + sign with = sign
 
 console . log ( arrFood [ x ]);
 
