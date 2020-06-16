@@ -8,6 +8,14 @@
 ;===========================================
 */
 
+// Add Header
+
+var header = require('../header.js');
+
+console.log(header.display("Wendy", "Leon", "Exercise 4.1 - Array Exercise with Two Errors Post"));
+
+console.log('\n');
+
 /*
 Expected Output:
 
@@ -17,8 +25,8 @@ Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 
 //Declare array
 
-var cars = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+var daysOfWeek = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
 //  //output
 
- console.log ("Days of the Week: " + cars[]);
+ console.log ("Days of the Week: " + daysOfWeek[]);
