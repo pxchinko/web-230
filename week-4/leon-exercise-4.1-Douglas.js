@@ -7,6 +7,15 @@
 ; Description: 2 errors in the array
 ;=========================================== */
 
+
+// Add Header
+
+var header = require('../header.js');
+
+console.log(header.display("Wendy", "Leon", "Exercise 4.1 - Array Exercise with Two Errors - Correction - Douglas Jenkins Post"));
+
+console.log('\n');
+
 // List of Arrays that needs to be displayed
 
 // Two errors below
