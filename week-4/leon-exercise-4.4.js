@@ -62,11 +62,23 @@ to test if the two string parameters match.  If they match, return true*/
 and pass-in the current element of the filter loop and the value to find
 (see page 154 of the courses textbook). */
 
-const criteria = (a) => a === "Alabama";
+const x = "Alabama";
+
+// This is what I came up doing an online research
+
+console.log (states.filter(findState => findState === x));
+
+// following the instructions
 
 
-console.log (states.filter(getState((a) => a === "Alabama")));
+console.log (
+    states.filter (
+      function (x) {
+        return getState (x, 'Alabama');
 
+      }
+    )
+);
 
 
 
