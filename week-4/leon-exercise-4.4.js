@@ -68,6 +68,7 @@ and pass-in the current element of the filter loop and the value to find
 (see page 154 of the courses textbook). */
 
 /* This is what I came up doing an online research - much easier
+var X = "Iowa";
 console.log (states.filter(findState => findState === X));*/
 
 // following the instructions - this took a very long research
