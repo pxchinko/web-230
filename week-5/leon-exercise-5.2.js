@@ -29,7 +29,7 @@ Using forEach(), iterate over the array and output the results.
 // Add Header
 
 var header = require('../header.js');
-console.log(header.display("Wendy", "Leon", "Exercise 5.1 - Advanced Arrays"));
+console.log(header.display("Wendy", "Leon", "Exercise 5.2 - Built-In Functions"));
 console.log('\n');
 
 /*  Expected output:
