@@ -107,7 +107,7 @@ console.log(NEW_LINE);
 //Display the selected value
 console.log(TWO_LINES + "SELECTED VALUE" + TWO_LINES)
 console.log (
-    selected = states.filter (
+     states.filter (
       function (x) {
         return getState (x, 'Iowa');
 
