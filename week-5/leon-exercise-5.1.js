@@ -1,33 +1,30 @@
 /* ============================================
 ; Title: Assignment 5.1 Advanced Arrays
-; Author: Professor Krasso
-; Date: 22 June 2020
-; Modified By: Wendy Leon
+; Author: Wendy Leon
+; Date: 24 June 2020
+; Modified By: Sarah Massie
 ; Description: Advanced Arrays
 ;=========================================== */
 
-/*  Create a simple JavaScript program using a keyed collection array with at least two (2) errors
-*/
-
-// Add Header
-
-var header = require('../header.js');
-console.log(header.display("Wendy", "Leon", "Exercise 5.1 - Advanced Arrays"));
+// header
+var header = require('./Massie-header.js');
+console.log(header.display("Sarah", "Massie", "Exercise 5.1 - Advanced Arrays"));
 console.log('\n');
 
 // creating a map object
 let animalEat = new Map();
 // adding keys and values to a map object
-animalEat.set('cow, grass');
-animalEat.set(squirrel, nuts');
-animalEat.set(monkey , bananas');
-//displaying the keys and values of the map object
+// for the three variables below, I made it so all string values were in apostrophes and therefore read as strings
+animalEat.set('cow', 'grass');
+animalEat.set('squirrel', 'nuts');
+animalEat.set('monkey' , 'bananas');
+// displaying the keys and values of the map object
 for (let [key, value] of animalEat){
-  console.log('The ' + key + ' eats ' + value);
+  console.log('The ' + key + ' eats ' + value + '.'); // not a necessary fix, but added a period to make it a closed sentence for the output
 }
 
 //displaying the size of the map object
-console = log(animalEat.size);
+console.log(animalEat.size); // equal sign replaced with a period
 //displaying the value of a key in the map object
 console.log(animalEat.get('cow'));
 //displaying the value of a key in the map object
@@ -36,14 +33,5 @@ console.log(animalEat.has('frog'));
 console.log(animalEat.delete('cow'));
 // emptying the map object
 console.log(animalEat.clear());
-//displaying the size of the map object
+// displaying the size of the map object
 console.log(animalEat.size);
-
-
-
-
-
-
-
-
-
